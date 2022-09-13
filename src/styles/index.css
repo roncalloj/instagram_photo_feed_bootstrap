@@ -1,12 +1,58 @@
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.titulo-foto {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  padding: 1vw 2vw;
+}
+.Ico{
+  width: 9%;
+}
+.InstaText{
+  width: 88%;
+}
+.textDate {
+  width: 10%;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.titulo-foto h3, h4{
+  margin: 0;
+}
+.div-image {
+  margin-bottom: 1vw;
+  display: flex;
+  justify-content: center;
+}
+.downpost {
+  justify-content: space-between;
+}
+.socials {
+  display: block;
+  padding: 0 2vw;
+  height: 5%;
+  margin: 0 0 4%;
+}
+.socials a{
+  margin: 0 1%;
+  color: red;
+}
+.socials a:hover {
+  color: yellowgreen;
+}
+#right {
+  float: right;
+}
+.footer, .description{
+  margin-top: 3%;
+  padding: 0 2vw;
+}
+.footer footer {
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.9rem;
+}
+.description p{
+  font-family: 'Karla', sans-serif;
+  font-size: 0.8rem;
+  text-align: justify;
+}
